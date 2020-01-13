@@ -1,5 +1,5 @@
-import codeanticode.syphon.*;
-SyphonServer server;
+//import codeanticode.syphon.*;
+//SyphonServer server;
 
 //delare the objects and arrays of pictures
 //array list is used for storing many copies of a class, a list of classes, in this case tiles
@@ -23,7 +23,7 @@ void setup() {
     pics2[i] = loadImage("fontshapes/tile"+i+".png");
   }
   smooth(8);
-  server = new SyphonServer(this, "Processing Syphon");
+//  server = new SyphonServer(this, "Processing Syphon");
 }
 
 
@@ -64,7 +64,7 @@ void draw() {
   } else {
     flag =false;
   }
-  server.sendScreen();
+//  server.sendScreen();
 }
 
 
